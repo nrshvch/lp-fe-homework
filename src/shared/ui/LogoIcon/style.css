@@ -1,0 +1,21 @@
+.LogoIcon {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-variant: small-caps;
+  color: #efefef;
+  text-shadow: 0.02em 0.02em 0 rgba(0, 0, 0, 0.5);
+  line-height: 0.9;
+  aspect-ratio: 1;
+  width: 1em;
+  padding-bottom: 0.02em;
+  padding-left: 0.15em;
+  box-sizing: border-box;
+  background-color: #1f388c;
+  box-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, 0.5);
+}
+
+.LogoIcon-text {
+  font-family: monospace;
+  font-size: 0.25em;
+}

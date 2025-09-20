@@ -1,0 +1,27 @@
+.Pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.Pagination-prev span,
+.Pagination-next span {
+  user-select: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Pagination-prev::before {
+  content: "← ";
+}
+
+.Pagination-next::after {
+  content: " →";
+}
+
+.Pagination-prev.Pagination_disabled,
+.Pagination-next.Pagination_disabled {
+  opacity: 0;
+  pointer-events: none;
+}

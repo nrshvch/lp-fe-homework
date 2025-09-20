@@ -1,0 +1,17 @@
+.SortingHeading {
+  white-space: nowrap;
+  user-select: none;
+}
+
+.SortingHeading span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SortingHeading:after {
+  content: " ↓";
+}
+
+.SortingHeading.SortingHeading-asc:after {
+  content: " ↑";
+}

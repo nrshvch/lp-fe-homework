@@ -1,0 +1,31 @@
+.Dialog {
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #777777;
+}
+
+.Dialog-title {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: -11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dialog-title > div {
+  height: 19px;
+  padding: 0 16px;
+  background: #efefef;
+  color: #777777;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.Dialog-inner {
+  border: 3px double #efefef;
+  padding: 16px;
+}

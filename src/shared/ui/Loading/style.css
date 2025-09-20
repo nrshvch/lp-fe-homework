@@ -1,0 +1,16 @@
+.Loading {
+  display: inline-block;
+  font-family: monospace;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.Loading > span {
+  opacity: 0;
+}
+
+.Loading > div {
+  top: 0;
+  left: 0;
+  position: absolute;
+}

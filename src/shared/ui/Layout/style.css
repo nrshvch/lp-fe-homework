@@ -1,0 +1,46 @@
+.Layout {
+  min-height: 100vh;
+  height: 0;
+  overflow: auto;
+  display: flex;
+  gap: 16px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #242424;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #242424 20%,
+      #242424 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #242424 20%,
+        #242424 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(#282828 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #282828 2px, #242424 2px) -1px 0;
+
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+.Layout-header {
+  position: sticky;
+  top: 0;
+
+  border-top: solid 4px rgba(0, 0, 0, 0.5);
+}
+
+.Layout-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

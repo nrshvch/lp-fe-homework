@@ -1,0 +1,39 @@
+.BirthList {
+  width: 100%;
+  max-width: 640px;
+}
+
+.BirthList-table {
+  width: 100%;
+  max-width: 960px;
+}
+
+.BirthList th {
+  font-weight: normal;
+  color: black;
+  background-color: white;
+}
+
+.BirthList th,
+.BirthList td {
+  padding: 8px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.BirthList th:last-child,
+.BirthList td:last-child {
+  padding: 8px;
+  text-align: right;
+}
+
+.BirthList-Item-text {
+  height: 3.3em;
+  line-height: 1.1em;
+  font-size: 1em;
+  font-family: monospace;
+  width: 100%;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

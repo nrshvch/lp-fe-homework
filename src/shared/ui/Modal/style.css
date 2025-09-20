@@ -1,0 +1,23 @@
+.Modal_error {
+  background-color: #8c1f2d;
+}
+
+.Modal_error .Dialog-title > div {
+  color: #8c1f2d;
+}
+
+.Modal-content {
+  font-family: monospace;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+  color: #efefef;
+}
+
+.Modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}

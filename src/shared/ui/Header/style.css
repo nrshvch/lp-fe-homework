@@ -1,0 +1,11 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  height: 64px;
+}
+
+.Header-logo {
+  font-size: 48px;
+}
