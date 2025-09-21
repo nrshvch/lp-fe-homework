@@ -1,12 +1,9 @@
+import { setOnThisDay } from "entities/births/model";
 import { useCallback, useContext } from "react";
 import { fetchOnThisDay } from "shared/api/on-this-day";
 import { isoDateToDay, isoDateToMonth } from "shared/lib/utils";
-import {
-    setOnThisDay
-} from "shared/model/on-this-day/actions";
-import { Button } from "../Button";
-import { Modal } from "../Modal";
-import { useModal } from "../ModalProvider/context";
+import { Button, Modal } from "shared/ui";
+import { useModal } from "shared/ui/ModalProvider/context";
 import { OnThisDayDataContext } from "./context";
 
 export function useOnThisDayData() {
@@ -38,7 +35,7 @@ export function useOnThisDayData() {
           </Modal>
         );
       }
-    },
+    }, 
     [close, dispatch, open]
   );
 

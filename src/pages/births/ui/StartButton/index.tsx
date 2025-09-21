@@ -1,5 +1,6 @@
+import { useOnThisDayData } from "entities/births/ui";
 import { useAsyncFn } from "react-use";
-import { Button, Loading, useOnThisDayData, type ButtonProps } from "shared/ui";
+import { Button, Loading, type ButtonProps } from "shared/ui";
 
 export function StartButton({
   isoDay,

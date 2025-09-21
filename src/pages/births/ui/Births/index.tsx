@@ -1,5 +1,6 @@
+import { useOnThisDayData } from "entities/births";
 import { toIsoDateString } from "shared/lib/utils";
-import { Layout, useOnThisDayData } from "shared/ui";
+import { Layout } from "shared/ui";
 import { Header } from "shared/ui/Header";
 import { BirthsDialog } from "../BirthsDialog";
 import { StartButton } from "../StartButton";

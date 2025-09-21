@@ -1,7 +1,8 @@
 import clsx from "clsx";
+import { useOnThisDayData } from "entities/births";
 import { useMemo, useState } from "react";
 import { usePagination } from "shared/lib/usePagination";
-import { useOnThisDayData, type SortingValues } from "shared/ui";
+import { type SortingValues } from "shared/ui";
 import { Dialog, type DialogProps } from "shared/ui/Dialog";
 import { Pagination } from "shared/ui/Pagination";
 import { BirthList, BirthListItem } from "../BirthList";

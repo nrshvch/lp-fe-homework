@@ -16,6 +16,7 @@ export const reducer: Reducer<OnThisDayDataState, OnThisDayDataAction> = (
             ...action.payload.data,
             births: action.payload.data.births.map((item) => ({
               ...item,
+              //NOTE: adds unique-ish (later used for react key)
               id: `${item.year}-${action.payload.isoDay}-${item.text.slice(
                 0,
                 20

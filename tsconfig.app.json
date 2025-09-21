@@ -30,6 +30,9 @@
         "pages/*": [
             "./src/pages/*"
         ],
+        "entities/*": [
+            "./src/entities/*"
+        ],
     }
   },
   "include": ["src"]

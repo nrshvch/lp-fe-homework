@@ -8,6 +8,3 @@ export * from "./Modal";
 export * from "./ModalProvider";
 export * from "./Header";
 export * from "./SortingHeading";
-export * from "./OnThisDayDataProvider";
-export * from "./OnThisDayDataProvider/context";
-export * from "./OnThisDayDataProvider/useOnThisDayData";

@@ -1,5 +1,6 @@
-import { ModalProvider, OnThisDayDataProvider } from "shared/ui";
+import { ModalProvider } from "shared/ui";
 import { Births } from "pages/births/ui";
+import { OnThisDayDataProvider } from "entities/births/ui";
 
 function App() {
   return (

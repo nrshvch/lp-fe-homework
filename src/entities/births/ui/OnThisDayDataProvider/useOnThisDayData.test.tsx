@@ -1,6 +1,6 @@
 import { act, renderHook } from "@testing-library/react";
-import { setOnThisDay } from "shared/model/on-this-day/actions";
-import { describe, expect, it, vi, afterEach } from "vitest";
+import { setOnThisDay } from "entities/births/model";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { OnThisDayDataContext } from "./context";
 import { useOnThisDayData } from "./useOnThisDayData";
 
@@ -11,7 +11,7 @@ vi.mock("shared/api/on-this-day", () => ({
 const open = vi.fn();
 const close = vi.fn();
 
-vi.mock("../ModalProvider/context", () => ({
+vi.mock("shared/ui/ModalProvider/context", () => ({
   useModal: () => ({ open, close }),
 }));
 

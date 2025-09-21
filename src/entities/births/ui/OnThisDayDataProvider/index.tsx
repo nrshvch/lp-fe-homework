@@ -1,7 +1,6 @@
 import { useReducer, type ReactNode } from "react";
-import { reducer } from "shared/model/on-this-day/reducer";
-import { initialState } from "shared/model/on-this-day/state";
 import { OnThisDayDataContext } from "./context";
+import { initialState, reducer } from "../../model";
 
 export const OnThisDayDataProvider = ({
   children,
