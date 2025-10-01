@@ -12,4 +12,5 @@ export default defineConfig({
   test: {
     environment: "jsdom",
   },
+  base: "/lp-fe-homework/",
 });
