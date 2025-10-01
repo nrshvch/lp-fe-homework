@@ -67,7 +67,7 @@ Hopefully this will be useful to someone.
 
 > Provide some basic styling with custom css or css-in-js solution of your choice.
 
-- I've used custom css and normalize.css just to keep things cosistent.
+- I've used custom css and normalize.css just to keep things cosistent. Minimalistic retro UI kit was developed featuring reusable and customizable components.
 
 > You can use whatever React project boilerplate, tools and libraries you like.
 
