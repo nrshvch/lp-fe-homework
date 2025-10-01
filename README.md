@@ -1,8 +1,10 @@
 # Levelpath frontend take-home task
 
+This repository contains a take-home assignment app for a Senior Frontend Developer position at [Levelpath](https://www.levelpath.com/).
+
 ![image](https://nrshvch.github.io/lp-fe-homework/app.png)
 
-## DEMO
+## Demo
 
 **[https://nrshvch.github.io/lp-fe-homework](https://nrshvch.github.io/lp-fe-homework)**
 
