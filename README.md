@@ -1,5 +1,18 @@
 # Levelpath frontend take-home task
 
+## UPDATE
+
+While the Levelpath reviewer appreciated the quality of the solution, it was ultimately REJECTED due to two main reasons:
+- **Exposed API Key**: This was cited as a major security violation. (Although obvious, and the commit message explicitly stating this was done intentionally for the reviewer's convenience, this was still considered unacceptable. P.s. Exposed API key is disabled by now, use your own.);
+- **Overengineered**: In particular, overengineered global state solution. (Although being warned about it in advance, Isn't it what the assignment is impling you to do, by mentioning global state management, Redux, reducer tests, etc. for project of such scale? Reviewers didn't care.)
+
+The feedback left the impression that the evaluation was subjective and that the reviewers were ignorant of the project context and explicit instructions.
+
+My key take-away is to avoid assignments where the stated expectations and assigment description don't align from the start.
+
+Hopefully this will be useful to someone.
+
+
 ## Original Assignment
 
 > ### Task
